@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+
+    tools:context="com.example.reactiontime.MainActivity" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="10dp"
+            android:layout_weight="0.8"
+
+            android:background="#ff2e30fb"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reaction_header"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reaction_header_count"/></RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="85dp"
+        android:layout_gravity="center"
+        android:text="Click on the &apos;Match&apos; button when the two pictures below match" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="40dp"
+        android:id="@+id/cards_rl">
+
+
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:src="@drawable/blue_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:src="@drawable/blue_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_toRightOf="@+id/imageView1"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@id/cards_rl">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_blue_res"
+            android:text="Match" />
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_green_res"
+
+            android:text="Start" />
+        </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/cards_rl"
+        android:layout_marginTop="100dp"
+        android:text="Reaction Time :"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:background="@drawable/button_pink_res"
+        android:text="Skip"
+        android:id="@+id/button14"
+        android:onClick="endActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+
+
+</RelativeLayout>

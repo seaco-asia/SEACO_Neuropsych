@@ -1,0 +1,150 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="X"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dedede"
+    tools:ignore="MissingPrefix"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+    <LinearLayout
+        android:layout_width="30dp"
+        android:layout_height="10dp"
+        android:layout_weight="0.2"
+
+        android:background="#ff2e30fb"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="start"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/prospective_header"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/prospective_header_count"/></RelativeLayout>
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/image_layout"
+            android:layout_centerHorizontal="true">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView_1"
+                android:layout_gravity="top|center"
+
+                android:scaleType="fitXY"
+                />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView_2"
+                android:layout_gravity="top|center"
+
+                android:scaleType="fitXY"
+                android:layout_toRightOf="@+id/imageView_1"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView_3"
+                android:layout_gravity="top|center"
+
+                android:scaleType="fitXY"
+                android:layout_toRightOf="@+id/imageView_2"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imageView_4"
+                android:layout_gravity="top|center"
+
+                android:scaleType="fitXY"
+                android:layout_toRightOf="@+id/imageView_3"/>
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_below="@id/image_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/prospective_memory_test"
+            android:id="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            fontPath="fonts/Avenir_Black.ttf"
+            android:fontFamily="fonts/Avenir_Black.ttf"/>
+
+        <TextView
+            android:background="#ababab"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="35dp"
+            android:paddingBottom="35dp"
+
+            android:text="@string/prospective_initial_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_below="@+id/textView"
+            android:id = "@+id/prospective_initial_text"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button android:id="@+id/next_button"
+            android:background="@drawable/button_green_res"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/next_button"
+            android:gravity="center|center_horizontal|fill_vertical"
+            android:layout_gravity="center"
+            android:layout_below="@+id/prospective_initial_text"
+            android:layout_centerHorizontal="true"
+            android:onClick="nextActivity"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

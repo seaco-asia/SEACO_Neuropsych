@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SEACO Neuropsych</string>
+    <string name="about_app">SEACO Neuropsych Version %1$s, developed by SSPIT</string>
+    <string name="intro_button">START</string>
+    <string name="intro_records_button">Records</string>
+    <string name="intro_about_button">About</string>
+    <string name="prospective_initial_text">        Welcome to your first task! %1$s %1$s
+        At the end of the games we will show you four
+        coloured shapes and ask you to touch a shape.
+        %1$s However, to test your memory, we want you to actually
+        touch the %2$s instead.</string>
+    <string name="prospective_header_final">FINAL</string>
+    <string name="prospective_header">PROSPECTIVE MEMORY TEST</string>
+    <string name="prospective_header_count">1 OF 4</string>
+    <string name="prospective_end_text">Remember your first task? Now tap on the shape we asked for.</string>
+    <string name="prospective_end_skip_text">Skip</string>
+    <string name="shape1">Red Octagon</string>
+    <string name="shape2">Orange Circle</string>
+    <string name="shape3">Blue Square</string>
+    <string name="shape4">Green Triangle</string>
+    <string name="time_taken">Time taken:\u0020</string>
+    <string name="time_unit_seconds"> seconds.\u0020 </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_prospective_initial">Prospective Memory Test</string>
+    <string name="next_button">Next</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_prospective_end">Prospective Memory Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="confirm_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="end_message_empty">Please select a shape.</string>
+    <string name="end_message_skip_confirm">Are you sure you want to skip this activity?</string>
+    <string name="end_message_skip">Skipping this activity. </string>
+    <string name="end_message_correct">Correct!</string>
+    <string name="end_message_wrong_accept">Incorrect selection, you have reached your maximum of two tries.
+        Now we will proceed to the next stage of the games.</string>
+    <string name="end_message_wrong">At the start of the games we asked you to remember to touch
+        a different shape when this screen appeared.
+        Please try to remember which shape it was and touch it now.</string>
+    <string name="prospective_memory_test">Prospective Memory Test</string>
+    <string name="title_activity_prospective_results">Prospective Memory Test - Results</string>
+    <string name="prospective_results_initial_answer">Actual Answer:\u0020</string>
+    <string name="prospective_results_final_answer">Final Answer:\u0020</string>
+    <string name="prospective_results_correct">Correct?:\u0020</string>
+    <string name="prospective_results_number_attempted">Number of trials:\u0020</string>
+    <string name="prospective_results_skipped">Game skipped?\u0020</string>
+    <string name="prospective_results_time_initial_final">Time elapsed since initial screen:\u0020</string>
+    <string name="prospective_results_time_end_visible">Time the final screen was visible:\u0020</string>
+    <string name="title_activity_prospective_result">prospective_result</string>
+    <string name="pair_intro_title">PAIR MATCHING</string>
+    <string name="pair_header_count">2 OF 4</string>
+    <string name="pair_help_text">Open the cards and find their matches.</string>
+    <string name="pair_intro_desc">Welcome to your second task! \n\nIn this game, you have to match as many cards as possible.</string>
+    <string name="title_activity_pair_level1">pair_level1</string>
+    <string name="title_activity_pair_level2">pair_level2</string>
+    <string name="title_activity_fluid_main">fluid_main</string>
+    <string name="start_button">Begin check</string>
+    <string name="start_message">In this next test you will have a maximum of two minutes to answer as many questions as possible. Don’t spend too long on any one question and you can skip any question if you wish.</string>
+    <string name="score_well">Congratulations! You have done a great job!</string>
+    <string name="score_bad">Oh no. But I believe you can do it better next time!</string>
+    <string name="unable_try_button">I am unable to try this</string>
+    <string name="try_next_time">Please try it next time. It is fun to play!</string>
+    <string name="exit_button">Exit</string>
+    <string name="fluid_header">FLUID INTELLIGENCE</string>
+    <string name="fluid_header_count">3 OF 4</string>
+
+    <string name="end_branch_message">You have just completed \nthe first part of the survey. \n\nPlease contact your advisor \nfor further action.</string>
+    <string name="end_branch_button_numeric">Numeric Memory Test</string>
+    <string name="end_branch_button_lights">Lights Pattern Test</string>
+    <string name="end_branch_button_save">Save and End the Survey</string>
+
+
+
+
+    >                                        <string-array name="questionList">
+    <item>Add the following numbers together: 1 2 3 4 5 - is the answer?</item>
+    <item>Which number is the largest?</item>
+    <item>Bud is to flower as child is to?</item>
+    <item>11 12 13 14 15 16 17 18\n\nDivide the sixth number to the right of twelve by three. Is the answer?</item>
+    <item>If Truda\'s mother\'s brother is Tim\'s sister\'s father, what relation is Truda to Tim?</item>
+    <item>If sixty is more than half of seventy-five, multiply twenty-three by three. If not subtract 15 from eighty-five. Is the answer?</item>
+    <item>Stop means the same as?</item>
+    <item>If David is twenty-one and Owen is nineteen and Daniel is nine years younger than David, what is half their combined age?</item>
+    <item>Age is to years as height is to?</item>
+    <item>150…137…125…114…104…\n\nWhat comes next?</item>
+    <item>Relaxed means the opposite of?</item>
+    <item>100…99…95…86…70…\n\nWhat comes next?</item>
+    <item>If some flinks are plinks and some plinks are stinks then some flinks are definitely stinks?</item>
+</string-array>
+    <string-array name="button1List">
+        <item>13</item>
+        <item>642</item>
+        <item>Grow</item>
+        <item>5</item>
+        <item>Aunt</item>
+        <item>68</item>
+        <item>Pause</item>
+        <item>25</item>
+        <item>Long</item>
+        <item>96</item>
+        <item>Calm</item>
+        <item>50</item>
+        <item>False</item>
+    </string-array>
+    <string-array name="button2List">
+        <item>14</item>
+        <item>308</item>
+        <item>Develop</item>
+        <item>6</item>
+        <item>Sister</item>
+        <item>69</item>
+        <item>Close</item>
+        <item>26</item>
+        <item>Deep</item>
+        <item>95</item>
+        <item>Anxious</item>
+        <item>49</item>
+        <item>True</item>
+    </string-array>
+    <string-array name="button3List">
+        <item>15</item>
+        <item>987</item>
+        <item>Improve</item>
+        <item>7</item>
+        <item>Niece</item>
+        <item>70</item>
+        <item>Cease</item>
+        <item>27</item>
+        <item>Top</item>
+        <item>94</item>
+        <item>Cool</item>
+        <item>48</item>
+        <item>Neither true or false</item>
+    </string-array>
+    <string-array name="button4List">
+        <item>16</item>
+        <item>714</item>
+        <item>Adult</item>
+        <item>8</item>
+        <item>Cousin</item>
+        <item>71</item>
+        <item>Break</item>
+        <item>28</item>
+        <item>Metres</item>
+        <item>93</item>
+        <item>Worried</item>
+        <item>47</item>
+        <item>Not sure</item>
+    </string-array>
+    <string-array name="button5List">
+        <item>17</item>
+        <item>253</item>
+        <item>Old</item>
+        <item>\0</item>
+        <item>No relation</item>
+        <item>72</item>
+        <item>Rest</item>
+        <item>29</item>
+        <item>Tall</item>
+        <item>92</item>
+        <item>Tense</item>
+        <item>46</item>
+        <item>\0</item>
+    </string-array>
+    <string-array name="button6List">
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>\0</item>
+        <item>45</item>
+        <item>\0</item>
+    </string-array>
+
+    <string name="reaction_header">REACTION TIME</string>
+    <string name="reaction_header_count">4 OF 4</string>
+    <string name="reaction_intro_desc">In this game, you will be shown patterns.
+Press match when Remember blablablablabla
+When you\'re ready, press
+START GAME button</string>
+
+    <string name="do_not_know">Do not know</string>
+    <string name="not_answer">Prefer not to answer</string>
+    <string name="title_activity_reaction_main">reaction_main</string>
+    <string name="title_activity_numeric_start">NumericStart</string>
+    <string name="numeric_intro">In this game, you will be shown a number to remember. \n\nThe number will disappear after 3 seconds, and then you have to enter the number
+    into the number pad on screen. \nThe number will become longer each time you remember correctly.\n\nThe first number will be 2 digits long. \nWhen you\'re ready, press
+     NEXT button.</string>
+    <string name="numeric_helptext">Try to remember the number above.</string>
+    <string name="numeric_title">NUMERIC MEMORY</string>
+    <string name="button_next">Next</string>
+    <string name="button_skip">Skip</string>
+    <string name="button_confirm">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="message_skip_confirm">Are you sure you want to skip this activity?</string>
+    <string name="title_activity_numeric_main">NumericMainActivity</string>
+    <string name="numeric_main_number">%s</string>
+    <string name="numeric_main_round">Round %s</string>
+    <string name="title_activity_numeric_main_input">NumericMainInput</string>
+    <string name="numpad_submit_button">Submit</string>
+    <string name="numpad_instruction">Please enter the number shown just now:</string>
+    <string name="hint_type_here">Type here…</string>
+    <string name="title_activity_numeric_end_report">NumericEndReport</string>
+    <string name="numeric_last_number">Last number:\u0020</string>
+    <string name="numeric_rounds_answered">Rounds answered:\u0020</string>
+    <string name="numeric_num_of_digits">Number of Digits:\u0020 </string>
+    <string name="numeric_num_correct">Correct:\u0020</string>
+    <string name="numeric_num_wrong">Wrong:\u0020 </string>
+    <string name="numeric_skipped">Skipped?:\u0020 </string>
+    <string name="numeric_duration">Total Time Taken:\u0020 </string>
+    <string name="duration_unit">seconds</string>
+    <string name="title_activity_end_branch">EndBranch</string>
+    <string name="title_activity_end">EndActivity</string>
+    <string name="title_activity_lights_main">Lights_main</string>
+    <string name="lights_start_message">In the next section, you will be shown a picture of a small house, like the one below. Some of the lights are switched on. Remember which windows are lit up.</string>
+    <string name="instruction">Please touch the windows that had the lights on. When you have pressed all the windows that you need to, press "Next".</string>
+    <string name="window1">First window</string>
+    <string name="window2">Second window</string>
+    <string name="window3">Third window</string>
+    <string name="window4">Fourth window</string>
+    <string name="window5">Fifth window</string>
+    <string name="window6">Sixth window</string>
+    <string name="window7">Seventh window</string>
+    <string name="window8">Eighth window</string>
+    <string name="window9">Ninth window</string>
+    <string name="window10">Tenth window</string>
+    <string name="window11">Eleventh window</string>
+    <string name="window12">Twelfth window</string>
+    <string name="window13">Thirteenth window</string>
+    <string name="window14">Fourteenth window</string>
+    <string name="window15">Fifteenth window</string>
+    <string name="window16">Sixteenth window</string>
+    <string name="title_activity_pair_intro">pair_intro</string>
+    <string name="title_activity_reaction_intro">reaction_intro</string>
+    <string name="seaco">SEACO</string>
+    <string name="title_activity_lights_intro">LightsIntro</string>
+    <string name="lights_title">LIGHTS PATTERN</string>
+
+</resources>

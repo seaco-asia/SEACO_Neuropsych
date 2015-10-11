@@ -1,0 +1,133 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="X"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dedede"
+    tools:ignore="MissingPrefix"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+        <LinearLayout
+            android:layout_width="30dp"
+            android:layout_height="10dp"
+            android:layout_weight="0.8"
+
+            android:background="#ff2e30fb"/>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:gravity="start"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reaction_header"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="end"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reaction_header_count"/></RelativeLayout>
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:id="@+id/imageView_1"
+            android:src="@drawable/reaction"
+            android:layout_gravity="top|center"
+            android:layout_centerHorizontal="true"
+            />
+
+
+
+
+        <TextView
+            android:layout_below="@id/imageView_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/reaction_header"
+            android:id="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"
+            fontPath="fonts/Avenir_Black.ttf"
+            android:fontFamily="fonts/Avenir_Black.ttf"/>
+
+        <TextView
+            android:background="#ababab"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="35dp"
+            android:paddingBottom="35dp"
+
+            android:text="@string/reaction_intro_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff000000"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_below="@+id/textView"
+            android:id = "@+id/reaction_initial_text"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+
+
+        <Button android:id="@+id/next_button"
+            android:background="@drawable/button_green_res"
+            android:layout_marginTop="20dp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:text="@string/next_button"
+            android:gravity="center|center_horizontal|fill_vertical"
+            android:layout_gravity="center"
+            android:layout_below="@+id/reaction_initial_text"
+            android:layout_centerHorizontal="true"
+            android:onClick="nextActivity"
+            android:textColor="@android:color/white"
+            android:textSize="30dp" />
+
+        <Button android:id="@+id/next2_button"
+            android:background="@drawable/button_pink_res"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:text="@string/button_skip"
+            android:gravity="center|center_horizontal|fill_vertical"
+            android:layout_gravity="center"
+            android:layout_below="@+id/next_button"
+            android:layout_centerHorizontal="true"
+            android:onClick="skipActivity"
+            android:textColor="@android:color/white"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

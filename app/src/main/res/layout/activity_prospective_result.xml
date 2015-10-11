@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/prospective_result_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text ="@string/title_activity_prospective_results"
+            android:textSize="30sp"
+
+            android:textColor="#ff000000"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/prospective_result_report"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:text="@string/end_message_wrong"
+            android:layout_height="200dp"
+            android:textSize="20sp"
+            android:textColor="#ff000000"
+            android:layout_alignLeft="@+id/confirm_button"
+            android:layout_alignStart="@+id/confirm_button"
+            android:layout_alignRight="@+id/confirm_button"
+            android:layout_alignEnd="@+id/confirm_button"
+            android:layout_below="@+id/prospective_result_title"
+            />
+
+        <Button android:id="@+id/confirm_button"
+            android:layout_marginTop="5dp"
+            android:layout_width="500dp"
+            android:layout_height="80dp"
+            android:text="@string/confirm_button"
+            android:gravity="center|center_horizontal|fill_vertical"
+            android:layout_gravity="center"
+            android:layout_below="@+id/prospective_result_report"
+            android:layout_centerHorizontal="true"
+            android:onClick="endActivity"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

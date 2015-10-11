@@ -1,0 +1,53 @@
+<seaco>
+	<shape>
+		<initialanswer></initialanswer>
+		<finalAnswer></finalAnswer>
+		<isCorrect></isCorrect>
+		<historyOfAttempt></historyOfAttempt>
+		<noOfAttempt></noOfAttempt>
+		<isCompleted></isCompleted>
+		<timePromptAndDisplayingAnswer></timePromptAndDisplayingAnswer>
+		<timeScreenVisible></timeScreenVisible>
+	</shape>
+	<pair>
+		<noOfColoumn></noOfColoumn>
+		<noOfRow></noOfRow>
+		<noOfCorrect></noOfCorrect>
+		<noOfIncorrect></noOfIncorrect>
+		<timeTaken></timeTaken>
+	</pair>
+	<fluidIntelligent>
+			//please help!
+	</fluidIntelligent>
+	<snap>
+		<indexCardA></indexCardA>
+		<indexCardB></indexCardB>
+		<noOfSnapButtonPressed></noOfSnapButtonPressed>
+		<timeTakenFirstPressButton></timeTakenFirstPressButton>
+		<meanTimeTakenCorrect></meanTimeTakenCorrect>
+	</snap>
+	<numericMemory>
+		<round_1>
+			<noOfDigits></noOfDigits>
+			<valueOfNumberDisplayed></valueOfNumberDisplayed>
+			<noOfRoundTestCompleted></noOfRoundTestCompleted>
+			<valueNumberEntered></valueNumberEntered>
+			<maxNoOfDigitRemembered></maxNoOfDigitRemembered>
+			<isCorrectInEachRound></isCorrectInEachRound>
+			<timeTakenDisplayingNumber></timeTakenDisplayingNumber>
+			<timeFirstEnteredDigit></timeFirstEnteredDigit>
+			<timeLastEnteredDigit></timeLastEnteredDigit>
+			<timeFromInstantKeyboardActivated></timeFromInstantKeyboardActivated>
+		</round_1>
+		<isCompletedStoppedAbandoned><isCompletedStoppedAbandoned>
+		<totalTimeTaken></totalTimeTaken>
+	</numericMemory>
+	<lightPattern>
+		<noOfColoumn></noOfColoumn>
+		<noOfRow></noOfRow>
+		<lightPattern></lightPattern>
+		<patternRemembered></patternRemembered>
+		<timeTaken></timeTaken>
+	</lightPattern>
+		
+</seaco>
